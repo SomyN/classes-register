@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+form{
+    margin: 0 auto;
+    width: 20em;
+}
+
+.form-control{
+    border-style: hidden;
+    border: 1px solid #4ea8de;
+}
+
+.edit{
+    text-decoration: none;
+    color: #ff9f1c; 
+}
+
+.edit:hover{
+    color: #fba731;
+    text-decoration: none;
+}
+
+.delete, .delete:hover{
+    color:#d90429;
+    text-decoration: none;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+button{
+    padding: .5em 2em;
+    border-style: hidden;
+    margin-left: /*7em*/ 112px;
+}
