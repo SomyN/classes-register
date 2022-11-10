@@ -1,9 +1,9 @@
 //create user class
 class User{
-    constructor(email, fname, lname){
-        this.email = email;
+    constructor(fname,lname,email){
         this.fname = fname;
         this.lname = lname;
+        this.email = email;
     }
 }
 
@@ -21,10 +21,9 @@ class Register{
 
         let row = document.createElement("tr")
         row.innerHTML = `
-        <td class = 'table-email'> ${user.email}</td> 
         <td class = 'table-fname'> ${user.fname}</td>
-         <td class = 'table-lname'> ${user.lname}</td>
-        
+        <td class = 'table-lname'> ${user.lname}</td>
+        <td class = 'table-email'> ${user.email}</td> 
          <td> <a href="#" class="edit"> Edit </a></td>
          <td> <a href="#" class="delete"> Delete </a></td>
          `
