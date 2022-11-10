@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="style2.css">
     <title>Random User Generator</title>
 </head>
-<body>
-    <h1>User</h1>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+    <h1>Random User</h1>
         <div id="data-render"></div>
-        <button type="submit" onclick="generateUser()">Update</button>
-    
+        <button type="submit" onclick="generateUser()">Generate User</button>
         <a href="./index.html">Back to main page</a>
+        </div>
     <script src="./index2.js"></script>
 </body>
 </html>
