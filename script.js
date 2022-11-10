@@ -21,9 +21,10 @@ class Register{
 
         let row = document.createElement("tr")
         row.innerHTML = `
+        <td class = 'table-email'> ${user.email}</td> 
         <td class = 'table-fname'> ${user.fname}</td>
          <td class = 'table-lname'> ${user.lname}</td>
-         <td class = 'table-email'> ${user.email}</td>
+        
          <td> <a href="#" class="edit"> Edit </a></td>
          <td> <a href="#" class="delete"> Delete </a></td>
          `
